@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+	padding: 0;
+	margin: 0;
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+	color: #000
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+@font-face {
+	font-family: 'font';
+	src: url(../font/NightPumpkind-1GpGv.ttf);
+}
+
+@font-face {
+	font-family: 'font';
+	src: url(../font/NightPumpkind-nRORO.otf);
+}
+
+body {
+	line-height: 31px;
+	margin: 0;
+	font-family: "font";
+}
+
+.main {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both
+}
+
+.header {
+	background: #EFDAE6;
+	height: 100px;
+}
+
+.header .logo {}
+
+.logo {
+	float: left;
+	line-height: 100px;
+	color: #1E6580;
+	font-size: 60px;
+}
+
+.nav {
+	float: right;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 2px 15px;
+	background: #9DCFE5;
+	margin-left: 30px;
+	margin-top: 30px;
+	color: #327F9D;
+	font-size: 18px;
+}
+
+.banner {
+	background: #EFDAE6;
+}
+
+.banner .main {
+	padding: 50px;
+	box-sizing: border-box;
+
+}
+
+.banner img {
+	height: 350px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 40px;
+}
+
+.box1 {
+	background: #EFDAE6;
+	padding: 40px 0;
+	padding-bottom: 120px;
+}
+
+.box1 .left {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.box1 .left img {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 30px;
+}
+
+.box1 .text {
+	font-size: 30px;
+	float: right;
+	width: 50%;
+	padding: 0 50px;
+	line-height: 2;
+	margin-top: 10px;
+	box-sizing: border-box;
+	color: #307A98;
+}
+
+.box2 {
+	background: #E9CCD2;
+	padding: 40px 0;
+	padding-bottom: 120px;
+}
+
+.box2 .left {
+	font-size: 30px;
+	float: left;
+	width: 40%;
+	padding: 0 50px;
+	line-height: 2;
+	margin-top: 10px;
+	box-sizing: border-box;
+	color: #307A98;
+}
+
+.box2 .text img {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 30px;
+	margin-top: -100px;
+}
+
+.box2 .text {
+	width: 60%;
+	float: right;
+	text-align: center;
+}
+
+.box3 {
+	background: #E9CCD2;
+	padding: 50px 0;
+}
+
+.title {
+	color: #307A98;
+	font-size: 40px;
+}
+.box3  p{
+	text-align: center;
+	width: 80%;
+	margin: 50px auto;
+	font-size: 32px;
+	line-height: 2;
+	color: #1D1A1A;
+}
+.link{
+	padding: 50px 0;
+	background: #E9CCD2;
+	text-align: right;
+	color: #307A98;
+	font-size: 30px;
+}
+.link h3{
+	padding-right: 110px;
+}
+.link img{
+	float: right;
+	margin-top: 30px;
+}
+header{
+	height: 200px;
+	background-color: #EFDAE6;
+	text-align: center;
+	line-height: 200px;
+	color: #1E6580;
+	font-size: 100px;
+}
+.box4{
+	background-color: #EFDAE6;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+.box4 p{
+	font-size: 40px;
+	line-height: 1.2;
+	color: #1E6580;
+}
+.box4 ul Li{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	margin: 40px 0;
+}
+.box4 ul Li img{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 30px;
+}
+.box4_two{
+	background: #E9CCD2;
+	padding-top: 50px;
+}
+.box4_two ul li{
+	margin-top: -150px;
+}
+.box4_two p{
+	text-align: center;
+	margin: 30px 0;
+}
+.nav_two{
+	background: #E9CCD2;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.nav_two a{
+	display: block;
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 40px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	background: #9DCCD2;
+	color: #307A98;
+	border-radius: 10px;
+}
+.box5{
+	background-color: #EFDAE6;
+	padding-bottom: 100px;
+}
+.box5 .left{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.box5 .main{
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+.box5 .left img{
+	width: 80%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 30px;
+}
+.box5 .text{
+	width: 70%;
+	float: left;
+	text-align: left;
+	font-size: 30px;
+	line-height: 1.6;
+	margin-top: 30px;
+	color: #327F9D;
+}
+.banner_two img{
+	margin-bottom: -200px;
+}
+.box4_two2{
+	padding-top: 400px;
+}
+.box4_two2 ul li img{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+}
+.box6{
+	background: #EFDAE6;
+	padding: 50px 0;
+	padding-bottom: 200px;
+	
+}
+.box6 P{
+	text-align: center;
+	font-size: 38px;
+	width: 70%;
+	margin: 0 auto;
+	line-height: 1.3;
+	color: #307A98;
+}
+.box4_two3{
+	background-color: #E9CCD2;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.box4_two3 ul li{
+	margin-top: -120px;
+	margin-bottom: 200px;
+}
